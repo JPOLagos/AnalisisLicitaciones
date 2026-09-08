@@ -49,8 +49,8 @@ Colócalo en `data/raw/Licitacion.csv` y corre `notebooks/process_licitaciones.p
 ## Instalación
 
 ```bash
-git clone <url-del-repo>
-cd Licitaciones
+git clone https://github.com/JPOLagos/AnalisisLicitaciones.git
+cd AnalisisLicitaciones
 python3 -m venv .venv
 ```
 
