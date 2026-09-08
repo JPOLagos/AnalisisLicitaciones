@@ -17,6 +17,7 @@ data/processed/*.parquet
 notebooks/01_exploracion_inicial.ipynb
 notebooks/02_limpieza_y_procesamiento.ipynb
 notebooks/03_analisis_exploratorio.ipynb
+notebooks/generate_eda_notebook.py
 
 # Checkpoints de Jupyter
 .ipynb_checkpoints/
