@@ -1,0 +1,22 @@
+# Python & Virtualenv
+.venv/
+__pycache__/
+*.pyc
+
+# OS Files
+.DS_Store
+
+# Raw Data (Heavy Files > 100MB)
+data/raw/Licitacion.csv
+data/processed/*.csv.gz
+
+# Datos procesados pesados (se regeneran con process_licitaciones.py)
+data/processed/*.parquet
+
+# Notebooks antiguos pendientes de revisión/eliminación
+notebooks/01_exploracion_inicial.ipynb
+notebooks/02_limpieza_y_procesamiento.ipynb
+notebooks/03_analisis_exploratorio.ipynb
+
+# Checkpoints de Jupyter
+.ipynb_checkpoints/
