@@ -23,10 +23,10 @@ Pipeline de datos y análisis exploratorio sobre **órdenes de compra públicas 
 ```
 Licitaciones/
 ├── notebooks/
-│   ├── 1_exploracion_inicial.ipynb        # Exploración y diagnóstico del dataset crudo
-│   ├── 2_limpieza_y_procesamiento.ipynb   # Limpieza, homologación de monedas e imputación
-│   ├── 3_analisis_exploratorio.ipynb      # EDA y generación de gráficos
-│   └── process_licitaciones.py            # Script de procesamiento (usado por el notebook 2)
+│   ├── 001_exploracion_inicial.ipynb      # Exploración y diagnóstico del dataset crudo
+│   ├── 002_limpieza_y_procesamiento.ipynb # Limpieza, homologación de monedas e imputación
+│   ├── 003_analisis_exploratorio.ipynb    # EDA y generación de gráficos
+│   └── process_licitaciones.py            # Script de procesamiento (usado por el notebook 002)
 ├── sql/
 │   └── analytical_queries.sql             # Consultas analíticas de referencia
 ├── powerbi/
@@ -64,13 +64,13 @@ pip install -r requirements.txt
    jupyter lab
    ```
 3. Ejecuta los notebooks en orden:
-   - `1_exploracion_inicial.ipynb` — diagnóstico del dataset crudo.
-   - `2_limpieza_y_procesamiento.ipynb` — genera `data/processed/Licitacion_procesada.parquet`.
-   - `3_analisis_exploratorio.ipynb` — genera los gráficos de `data/processed/`.
+   - `001_exploracion_inicial.ipynb` — diagnóstico del dataset crudo.
+   - `002_limpieza_y_procesamiento.ipynb` — genera `data/processed/Licitacion_procesada.parquet`.
+   - `003_analisis_exploratorio.ipynb` — genera los gráficos de `data/processed/`.
 
 ## Resultados
 
-El EDA cubre: gasto por región, top proveedores y compradores, distribución por rubro, participación de PYMEs y evolución temporal del gasto. Los gráficos se generan en `data/processed/*.png` al correr el notebook 3.
+El EDA cubre: gasto por región, top proveedores y compradores, distribución por rubro, participación de PYMEs y evolución temporal del gasto. Los gráficos se generan en `data/processed/*.png` al correr el notebook 003.
 
 *(Capturas del dashboard de Power BI — próximamente.)*
 
