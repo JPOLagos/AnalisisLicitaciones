@@ -52,7 +52,27 @@ Colócalo en `data/raw/Licitacion.csv` y corre `notebooks/process_licitaciones.p
 git clone <url-del-repo>
 cd Licitaciones
 python3 -m venv .venv
+```
+
+Activa el entorno virtual según tu sistema operativo:
+
+```bash
+# macOS / Linux
 source .venv/bin/activate
+
+# Windows (Git Bash)
+source .venv/Scripts/activate
+
+# Windows (PowerShell)
+.venv\Scripts\Activate.ps1
+
+# Windows (CMD)
+.venv\Scripts\activate.bat
+```
+
+Luego instala las dependencias:
+
+```bash
 pip install -r requirements.txt
 ```
 
