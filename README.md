@@ -50,7 +50,7 @@ Colócalo en `data/raw/Licitacion.csv` y corre `notebooks/process_licitaciones.p
 
 ```bash
 git clone https://github.com/JPOLagos/AnalisisLicitaciones.git
-cd Licitaciones
+cd AnalisisLicitaciones
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
